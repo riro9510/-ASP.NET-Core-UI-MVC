@@ -1,0 +1,9 @@
+@MvcMovie_HostAddress = http://localhost:5197
+
+GET {{MvcMovie_HostAddress}}/helloWorld
+Accept: application/json
+
+
+
+GET {{MvcMovie_HostAddress}}/helloWorld/Welcome
+Accept: application/json
