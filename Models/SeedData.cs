@@ -51,6 +51,46 @@ public static class SeedData
                     Genre = "Western",
                     Price = 3.99M,
                     Rating = "NR"
+                },
+                new Movie
+                {
+                    Title = "The Jungle Book",
+                    ReleaseDate = DateTime.Parse("2016-4-15"),
+                    Genre = "Adventure",
+                    Price = 10.99M,
+                    Rating = "PG"
+                },
+                new Movie
+                {
+                    Title = "Die Hard 4.0",
+                    ReleaseDate = DateTime.Parse("2007-6-27"),
+                    Genre = "Action",
+                    Price = 12.99M,
+                    Rating = "PG-13"
+                },
+                new Movie
+                {
+                    Title = "Shooter",
+                    ReleaseDate = DateTime.Parse("2007-3-23"),
+                    Genre = "Action",
+                    Price = 9.99M,
+                    Rating = "R"
+                },
+                new Movie
+                {
+                    Title = "Inception",
+                    ReleaseDate = DateTime.Parse("2010-7-16"),
+                    Genre = "Sci-Fi",
+                    Price = 11.99M,
+                    Rating = "PG-13"
+                },
+                new Movie
+                {
+                    Title = "The Dark Knight",
+                    ReleaseDate = DateTime.Parse("2008-7-18"),
+                    Genre = "Action",
+                    Price = 12.99M,
+                    Rating = "PG-13"
                 }
             );
             context.SaveChanges();
